@@ -20,8 +20,8 @@ app.use(express.json());
 app.use(
   cors({
     origin: [
-      "https://<your-frontend>.netlify.app",
-      "https://<your-admin>.netlify.app",
+      "https://emediconnect.netlify.app", // Frontend
+      "https://<your-admin>.netlify.app", // Admin (will replace after deployment)
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
