@@ -21,7 +21,7 @@ app.use(
   cors({
     origin: [
       "https://emediconnect.netlify.app", // Frontend
-      "https://<your-admin>.netlify.app", // Admin (will replace after deployment)
+      "https://emediconnect-admin.netlify.app", // Admin Panel
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
